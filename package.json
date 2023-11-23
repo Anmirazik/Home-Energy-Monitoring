@@ -1,0 +1,12 @@
+{
+    "name": "Home-Energy-Monitoring-System",
+    "description": "Just a simple energy monitoring system using raspberry pi , eastron SDM 230 energy meter , modbusr RS 485 to USB converter to read my house energy consumptions through modbus RS 485",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
