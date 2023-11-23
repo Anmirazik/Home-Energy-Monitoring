@@ -14,3 +14,7 @@ Just a simple project which I used as my Final Year Project during my degree :)
 3. Build a JSON object for ease of reading so your eyes wont hurt :)
 4. Publish the JSON object to InfluxDB as well as MQTT Broker for easy access of the Data and persistent storage for further analysis
 5. Build Grafana dashboard for data visualizations
+
+*Below is my simple Grafana Dashboard for Data Visualizations*
+
+<img width="954" alt="image" src="https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/3797ed19-bd04-449d-9783-704bffa98e21">
