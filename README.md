@@ -20,7 +20,7 @@ Just a simple project which I used as my Final Year Project during my degree :)
 4. Publish the JSON object to InfluxDB as well as MQTT Broker for easy access of the Data and persistent storage for further analysis
 5. Build Grafana dashboard for data visualizations
 
-### Step 1: Data Generations
+### Step 1: Data Generations (Modbus RS 485)
 
 Below JSON object is the example data output which the Node-Red program has processed
 
