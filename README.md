@@ -1,7 +1,11 @@
 Home-Energy-Monitoring-System
 =============================
 
-Just a simple energy monitoring system using Raspberry pi , Eastron SDM 230 energy meter, Modbus RS 485 to USB converter to read my house energy consumptions through Modbus RS 485 protocol
+Just a simple energy monitoring system using :-
+
+1. Raspberry pi
+2. Eastron SDM 230 energy meter
+3. Modbus RS 485 to USB converter to read my house energy consumptions through Modbus RS 485 protocol
 
 ## About & How It Works 
 
