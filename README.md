@@ -34,7 +34,7 @@ Below image shows the JSON object has been successfully published to the MQTT Br
 ![image](https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/00914dce-dacc-4586-ab1e-b6392af3481b)
 
 
-#### Data Storage
+### Data Storage (InfluxDB)
 
 Below image shows the JSON object has been succesfully inserted into the databasse (InfluxDB)
 
