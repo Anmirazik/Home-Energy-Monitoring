@@ -46,7 +46,9 @@ Below image shows the JSON object has been succesfully inserted into the databas
 ![image](https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/d87f1936-465d-4931-82ec-af3ebf8a76ec)
 
 
-### Step 4: Data Visualizations (Thingsboard)
+### Step 4: Data Visualizations (Grafana)
+
+Below Image shows my final dashboard using Grafana for Monitoring Home Energy Consumptions
 
 <img width="954" alt="image" src="https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/3797ed19-bd04-449d-9783-704bffa98e21">
 
