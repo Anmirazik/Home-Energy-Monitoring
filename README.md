@@ -7,6 +7,40 @@ Just a simple energy monitoring system using Raspberry pi , Eastron SDM 230 ener
 
 Just a simple project which I used as my Final Year Project during my degree :)
 
+#### Data Generations
+
+Below JSON object is the example data output which the Node-Red program has processed
+
+~~~
+{
+   "Voltage":233.97,
+   "Instantaneous Current":10.97,
+   "Instantaneous Power":2549.95,
+   "Frequency":50.05,
+   "Energy Consumptions":19541.08,
+   "Instantaneous Apparent":2553,
+   "Instantaneous Reactive":124.68,
+   "Power Factor":0.999,
+   "Maximum Power Demand":10291.84,
+   "Maximum Current Demand":47.44
+}
+
+~~~
+
+### Data Transmission (MQTT Mosquitto Broker)
+
+Below image shows the JSON object has been successfully published to the MQTT Broker , I viewed all the topics in the broker using MQTT Explorer
+
+![image](https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/00914dce-dacc-4586-ab1e-b6392af3481b)
+
+
+#### Data Storage
+
+Below image shows the JSON object has been succesfully inserted into the databasse (InfluxDB)
+
+![image](https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/d87f1936-465d-4931-82ec-af3ebf8a76ec)
+
+
 ### How It Works 
 
 1. Read the Modbus raw data based on the Eastron SDM 230 documentations manual , you can just get it online or download it from this repo
@@ -18,3 +52,5 @@ Just a simple project which I used as my Final Year Project during my degree :)
 *Below is my simple Grafana Dashboard for Data Visualizations*
 
 <img width="954" alt="image" src="https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/3797ed19-bd04-449d-9783-704bffa98e21">
+
+
