@@ -1,4 +1,4 @@
-Home-Energy-Monitoring-System
+Home Energy Monitoring System
 =============================
 
 Just a simple energy monitoring system using :-
