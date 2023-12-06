@@ -10,6 +10,10 @@ Just a simple energy monitoring system using :-
 ## About & How It Works 
 
 Just a simple project which I used as my Final Year Project during my degree :)
+
+![FYP Method](https://github.com/Anmirazik/Home-Energy-Monitoring/assets/113960675/da63a4a8-6cc1-47e9-bf46-8ee3ae3f6bf9)
+
+
 1. Read the Modbus raw data based on the Eastron SDM 230 documentations manual , you can just get it online or download it from this repo
 2. Decode the Modbus raw data into readable format or more specifically decode it into float data type
 3. Build a JSON object for ease of reading so your eyes wont hurt :)
