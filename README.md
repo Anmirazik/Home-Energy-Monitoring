@@ -3,7 +3,7 @@ Home-Energy-Monitoring-System
 
 Just a simple energy monitoring system using Raspberry pi , Eastron SDM 230 energy meter, Modbus RS 485 to USB converter to read my house energy consumptions through Modbus RS 485 protocol
 
-### About & How It Works 
+## About & How It Works 
 
 Just a simple project which I used as my Final Year Project during my degree :)
 1. Read the Modbus raw data based on the Eastron SDM 230 documentations manual , you can just get it online or download it from this repo
@@ -12,7 +12,7 @@ Just a simple project which I used as my Final Year Project during my degree :)
 4. Publish the JSON object to InfluxDB as well as MQTT Broker for easy access of the Data and persistent storage for further analysis
 5. Build Grafana dashboard for data visualizations
 
-#### Step 1: Data Generations
+### Step 1: Data Generations
 
 Below JSON object is the example data output which the Node-Red program has processed
 
